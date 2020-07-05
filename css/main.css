@@ -117,3 +117,26 @@ ul li:before {
   background-repeat: no-repeat;
   margin-right: 5px;
 }
+
+.select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  margin: 3% auto;
+  width: 100%;
+  padding: 10px;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 1.3px solid var(--light-gray);
+  border-radius: 5px;
+  background-color: white;
+  background-image: url("../images/expand.png");
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 1em auto, 100%;
+}
+
+.select::-ms-expand {
+  display: none;
+}

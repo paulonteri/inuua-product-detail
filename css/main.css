@@ -106,3 +106,14 @@ ul li {
   margin-top: 0;
   margin-bottom: 2em;
 }
+
+ul li:before {
+  content: "";
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background-size: 12px;
+  background-image: url("../images/Tick_Circle-512.png");
+  background-repeat: no-repeat;
+  margin-right: 5px;
+}
